@@ -15,7 +15,7 @@ This repository contains the empirical analysis for my 2026 MSc dissertation, su
 ├── data/
 │   └── README.md
 ├── docs/
-│   └── Main Defense Slides.pdf #Contains easy to read slide deck to get quick overview.
+│   └── Main Defense Slides.pdf # Contains easy to read slide deck to get quick overview.
 ```
 
 ## Research question
