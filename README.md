@@ -4,6 +4,20 @@
 
 This repository contains the empirical analysis for my 2026 MSc dissertation, supervised by Prof. Carla Soares.
 
+## Repository structure
+
+```text
+.
+├── README.md
+├── requirements.txt
+├── notebooks/
+│   └── 01_empirical_analysis.ipynb # Code and Logic
+├── data/
+│   └── README.md
+├── docs/
+│   └── Main Defense Slides.pdf #Contains easy to read slide deck to get quick overview.
+```
+
 ## Research question
 
 Are banks with stronger franchise-deposit exposure priced differently when the euro-area yield curve steepens rather than flattens, and does this relationship depend on deposit composition, the macro-financial regime and asset-side repricing capacity?
@@ -35,21 +49,6 @@ Are banks with stronger franchise-deposit exposure priced differently when the e
 - Alternative yield-curve definitions
 - Winsorisation and continuous specifications
 - Leave-one-bank-out and leave-one-country-out stability checks
-
-## Repository structure
-
-```text
-.
-├── README.md
-├── requirements.txt
-├── notebooks/
-│   └── 01_empirical_analysis.ipynb
-├── data/
-│   └── README.md
-├── docs/
-│   └── thesis_overview.pdf
-│   └── thesis_slides.pdf 
-```
 
 ## Data availability
 
