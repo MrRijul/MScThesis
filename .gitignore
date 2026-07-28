@@ -1,0 +1,48 @@
+# Licensed and derived datasets
+data/processed/*
+!data/processed/.gitkeep
+raw/
+intermediate/
+intermediate panels/
+final panel/
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.dta
+*.sav
+
+# Generated bulk outputs
+steepening_regression_outputs_*/
+rolling_ciss_deposit_composition_outputs*/
+correlation_diagnostics/
+
+# Keep selected recruiter-facing figures
+!outputs/
+!outputs/figures/
+!outputs/figures/*.png
+!outputs/figures/*.jpg
+!outputs/figures/*.jpeg
+
+# Presentations: publish an exported PDF, not working PowerPoint files
+*.pptx
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
