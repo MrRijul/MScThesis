@@ -19,7 +19,7 @@ Are banks with stronger franchise-deposit exposure priced differently when the e
 ## Main findings
 
 1. High-customer-deposit banks earn a relative equity premium during yield-curve steepening, although the broad result weakens under the fullest macro-financial controls.
-2. Deposit composition matters: the demand-versus-savings differential is largely driven by a penalty on savings-heavy banks during steepening.
+2. Deposit composition matters: savings-deposit heavy banks are penalised during steepening.
 3. The relationship is regime-dependent and becomes more visible after the 2022 rate normalisation.
 4. The strongest premium is concentrated among banks combining high deposit exposure with high loan exposure.
 
@@ -47,9 +47,8 @@ Are banks with stronger franchise-deposit exposure priced differently when the e
 ├── data/
 │   └── README.md
 ├── docs/
-│   └── thesis_overview.pdf        # add the condensed overview here
-└── outputs/
-    └── figures/                   # add 2–3 selected figures here
+│   └── thesis_overview.pdf
+│   └── thesis_slides.pdf 
 ```
 
 ## Data availability
